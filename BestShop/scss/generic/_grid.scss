@@ -1,0 +1,62 @@
+@use '../settings/variables';
+@use '../settings/mixins';
+@use 'sass:map';
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @include mixins.media('min-width', map.get(variables.$breakpoints, 'sm')) {
+    max-width: 540px;
+  }
+
+  @include mixins.media('min-width', map.get(variables.$breakpoints, 'md')) {
+    max-width: 720px;
+  }
+
+  @include mixins.media('min-width', map.get(variables.$breakpoints, 'lg')) {
+    max-width: 960px;
+  }
+
+  @include mixins.media('min-width', map.get(variables.$breakpoints, 'xl')) {
+    max-width: 1140px;
+  }
+
+  @include mixins.media('min-width', map.get(variables.$breakpoints, 'xxl')) {
+    max-width: 1320px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+
+    [class*='col-'] {
+      min-height: 1px;
+      padding: 0 variables.$gutters;
+    }
+
+    @for $i from 1 through variables.$columns {
+      .col-#{$i} {
+        width: variables.$base-column-size * $i;
+      }
+    }
+
+    @each $breakpoint, $size in variables.$breakpoints {
+      $type: 'min-width';
+
+      @if $breakpoint == 'xs' {
+        $type: 'max-width';
+      }
+
+      @include mixins.media($type, $size) {
+        @for $i from 1 through variables.$columns {
+          .col-#{$breakpoint}-#{$i} {
+            width: variables.$base-column-size * $i;
+          }
+        }
+      }
+    }
+  }
+}
