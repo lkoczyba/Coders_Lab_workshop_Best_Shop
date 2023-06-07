@@ -2,5 +2,7 @@
 @use '../settings/variables';
 
 body {
-
+  color: colors.$color-text;
+  background-color: colors.$color-neutral-light;
+  font-family: variables.$ff-primary;
 }

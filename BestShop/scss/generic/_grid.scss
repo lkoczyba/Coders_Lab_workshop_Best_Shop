@@ -8,6 +8,7 @@
   margin: 0 auto;
   padding: 0 15px;
 
+
   @include mixins.media('min-width', map.get(variables.$breakpoints, 'sm')) {
     max-width: 540px;
   }

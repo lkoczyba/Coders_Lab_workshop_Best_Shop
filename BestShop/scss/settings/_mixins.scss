@@ -1,5 +1,14 @@
+@use 'sass:map';
+@use 'variables';
+
 @mixin media($type, $size) {
   @media screen and ($type: $size) {
+    @content;
+  }
+}
+
+@mixin breakpoint($type, $size) {
+  @media screen and ($type: map.get(variables.$breakpoints, $size)) {
     @content;
   }
 }
