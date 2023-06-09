@@ -29,27 +29,27 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 10px;
+      gap: variables.$ham-gap;
       width: max-content;
       cursor: pointer;
       &:before, &:after, .nav__trigger{
         content: "";
-        width: 50px;
-        height: 5px;
+        width: variables.$ham-bar-width;
+        height: variables.$ham-bar-height;
         background-color: colors.$color-primary;
-        border-radius: 9999px;
+        border-radius: math.div(variables.$ham-bar-height, 2);
         transform-origin: left center;
         transition: all .5s ease-in-out;
       }
       &:has(.nav__trigger:checked):after{
         rotate:-45deg;
-        translate: 7.5px 2.5px;
-        width: math.sqrt(2)*35px;
+        translate: math.div((variables.$ham-x-length - variables.$ham-height), 2) math.div(variables.$ham-bar-height, 2);
+        width: variables.$ham-x-length;
       }
       &:has(.nav__trigger:checked):before{
         rotate: 45deg;
-        translate: 7.5px -2.5px;
-        width: math.sqrt(2)*35px;
+        translate: math.div((variables.$ham-x-length - variables.$ham-height), 2) math.div(variables.$ham-bar-height, -2);
+        width: variables.$ham-x-length;
 
       }
       &:has(.nav__trigger:checked) .nav__trigger{
@@ -57,14 +57,19 @@
       }
       &:has(.nav__trigger:checked)~.nav__links{
         translate: 0 0;
-
+        box-shadow: variables.$bs-nav;
+      }
+      &:hover{
+        &:before, &:after, .nav__trigger{
+          background-color: lighten(colors.$color-primary, 20%);
+        }
       }
     }
     &__trigger{
       appearance: none;
       margin: 0;
       padding: 0;
-
+      cursor: pointer;
     }
     &__links{
       position: absolute;
@@ -75,7 +80,6 @@
       left: 0;
       padding: 25px 25px;
       background-color: colors.$color-neutral-lightest;
-      box-shadow: variables.$bs-nav;
       transition: all 0.5s ease-in-out;
       height: fit-content;
     }

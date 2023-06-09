@@ -1,12 +1,12 @@
 6036
-83/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/Person.e8721018.svg1686250972576257534 0
-84/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/Trumpet.041da3b3.png1686250972576257534 0
-83/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/iPhone.18df9ac3.png1686250972568257425 0
-74/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/index.html1686251001944657275 0
-80/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/Eye.e60e75e7.svg1686250972580257589 0
-86/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/index.574c7455.css.map1686251385938106553 0
-84/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/BestShop.3464ddca.js1686250972572257480 0
-63/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist1686251385938106553 1
+83/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/Person.e8721018.svg1686333633006934518 0
+84/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/Trumpet.041da3b3.png1686333633014934555 0
+83/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/iPhone.18df9ac3.png1686333632998934481 0
+74/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/index.html1686333643818984263 0
+80/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/Eye.e60e75e7.svg1686333633022934591 0
+86/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/index.574c7455.css.map1686334287259033164 0
+84/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/BestShop.3464ddca.js1686333633010934537 0
+63/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist1686334287259033164 1
 71/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/package.json1686071283265803068 0
 90/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/domutils/readme.md1686071221669675383 0
 100/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/domutils/lib/manipulation.js1686071221609675257 0
@@ -189,7 +189,7 @@
 94/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-tree/lib/generator1686071221889675839 1
 99/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-tree/lib/lexer/trace.js1686071221889675839 0
 99/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-tree/lib/lexer/match.js1686071221877675814 0
-88/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/BestShop.3464ddca.js.map1686250972576257534 0
+88/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/BestShop.3464ddca.js.map1686333633010934537 0
 99/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-tree/lib/lexer/Lexer.js1686071221877675814 0
 99/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-tree/lib/lexer/index.js1686071221873675805 0
 108/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-tree/lib/lexer/generic-urange.js1686071221861675780 0
@@ -769,7 +769,7 @@
 88/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/globals/index.js1686071221553675141 0
 98/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/optimizer-svgo/src1686071221569675174 1
 142/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/scope/value.js1686071221841675738 0
-84/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/Catalog.8507218e.svg1686250972580257589 0
+84/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/Catalog.8507218e.svg1686333633010934537 0
 109/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@swc/helpers/cjs/_sliced_to_array.cjs1686071221761675573 0
 108/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/node-addon-api/tools/clang-format.js1686071221689675423 0
 79/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel1686071220445672843 1
@@ -1141,7 +1141,7 @@
 107/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-tree/lib/syntax/config/lexer.js1686071221877675814 0
 99/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@swc/helpers/lib/_update.js1686071221861675780 0
 133/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/csso/node_modules/css-tree/cjs/syntax/function/expression.cjs1686071221761675573 0
-72/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/scss/elements1686251586497064247 1
+72/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/scss/elements1686334895590089870 1
 119/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@swc/helpers/cjs/_skip_first_generator_next.cjs1686071221757675565 0
 88/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/timsort/index.js1686071221569675174 0
 91/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/srcset/package.json1686071221561675158 0
@@ -1789,7 +1789,7 @@
 96/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/weak-lru-cache/README.md1686071221621675282 0
 106/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/events/src/ValueEmitter.js1686071221641675324 0
 100/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/binary-extensions/index.d.ts1686071221593675224 0
-64/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/.idea1686251586537064842 1
+64/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/.idea1686334895630090672 1
 134/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-select/node_modules/domutils/lib/esm/manipulation.d.ts.map1686071221725675498 0
 98/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/utils/lib/index.js1686071221793675639 0
 142/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/replace/Percentage.js1686071221765675581 0
@@ -2209,7 +2209,7 @@
 142/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/optimizer-htmlnano/node_modules/svgo/plugins/removeMetadata.js1686071221769675589 0
 110/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/cosmiconfig/dist/ExplorerBase.d.ts.map1686071221673675390 0
 104/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-tree/cjs/syntax/node/CDO.cjs1686071221669675383 0
-85/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/scss/elements/_header.scss1686251586493064188 0
+85/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/scss/elements/_header.scss1686334895590089870 0
 73/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/scss/main.scss1686072518208351307 0
 78/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/assets/Facebook.svg1576595046000000000 0
 106/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/svgo/plugins/removeRasterImages.js1686071221757675565 0
@@ -2419,7 +2419,7 @@
 123/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mdb_stat.c1686071221765675581 0
 106/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/namer-default/package.json1686071221589675217 0
 78/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/base-x1686071221573675183 1
-88/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/scss/settings/_variables.scss1686245721652515309 0
+88/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/scss/settings/_variables.scss1686334895594089950 0
 117/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/csso/node_modules/css-tree/lib/lexer/trace.js1686071221893675846 0
 102/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/optimizer-htmlnano/src1686071221605675250 1
 136/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/optimizer-svgo/node_modules/svgo/plugins/inlineStyles.js1686071221733675515 0
@@ -2588,7 +2588,7 @@
 95/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/core/index.d.ts1686071221897675855 0
 128/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-select/node_modules/entities/lib/decode_codepoint.js1686071221565675167 0
 148/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/msgpackr-extract/node_modules/.bin/node-gyp-build-optional-packages-optional1686071222105676286 0
-72/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/scss/settings1686245721652515309 1
+72/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/scss/settings1686334895594089950 1
 98/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-select/lib/esm/sort.js1686071221701675448 0
 96/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/node-gyp-build/README.md1686071221605675250 0
 120/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/runtime-js/src/helpers/node/js-loader.js1686071221713675473 0
@@ -4188,7 +4188,7 @@
 113/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@swc/helpers/src/_object_spread_props.mjs1686071221937675938 0
 106/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/htmlnano/lib/modules/minifyUrls.js1686071221689675423 0
 122/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@swc/helpers/esm/_iterable_to_array_limit_loose.js1686071221837675731 0
-84/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/Macbook.a1f4b436.png1686250972548257155 0
+84/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/Macbook.a1f4b436.png1686333632994934464 0
 108/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/transformer-babel/lib/jsx.js1686071221661675365 0
 105/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/lightningcss/node/targets.js.flow1686071221657675358 0
 122/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/transformer-babel/lib/remapAstLocations.js1686071221665675374 0
@@ -4233,7 +4233,7 @@
 108/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/core/src/UncommittedAsset.js1686071221873675805 0
 121/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/core/test/fixtures/custom-format-mismatch1686071221881675821 1
 100/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/watcher/src/watchman1686071221717675481 1
-82/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/index.574c7455.css1686251385938106553 0
+82/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/dist/index.574c7455.css1686334287259033164 0
 94/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/diagnostic/lib1686071221621675282 1
 108/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/caniuse-lite/data/features/webgpu.js1686071221953675971 0
 123/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/caniuse-lite/data/features/css-image-orientation.js1686071221841675738 0
@@ -4548,7 +4548,7 @@
 111/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@swc/helpers/cjs/_wrap_native_super.cjs1686071221773675598 0
 123/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/core/test/fixtures/config-extends-not-found1686071221709675466 1
 133/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/core/test/fixtures/config-extends-not-found/.parcelrc1686071221573675183 0
-78/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/.idea/workspace.xml1686251586537064842 0
+78/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/.idea/workspace.xml1686334895630090672 0
 139/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/core/test/fixtures/config-extends-not-found/.parcelrc-json51686071221709675466 0
 139/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/tokenizer/utils.js1686071221841675738 0
 119/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/caniuse-lite/data/features/template-literals.js1686071221949675962 0

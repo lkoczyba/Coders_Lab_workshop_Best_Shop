@@ -33,3 +33,10 @@ $fs-title-xs: functions.pxToRem(26);
 
 //Box Shadow
 $bs-nav: 0 3px 6px #00000029;
+
+//Hamburger Menu
+$ham-bar-width: 20px;
+$ham-bar-height: 2px;
+$ham-gap: 3px;
+$ham-height: $ham-bar-height*3+$ham-gap*2;
+$ham-x-length: math.sqrt(2)*($ham-height);
