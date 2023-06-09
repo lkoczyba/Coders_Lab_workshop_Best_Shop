@@ -455,6 +455,12 @@ body {
   box-shadow: 0 3px 6px #00000029;
 }
 
+@media screen and (width >= 992px) {
+  .header .nav {
+    padding: 0 135px;
+  }
+}
+
 .header .nav__logo {
   color: #08a6e4;
   letter-spacing: 0;
@@ -508,6 +514,12 @@ body {
   background-color: #59ccf9;
 }
 
+@media screen and (width >= 992px) {
+  .header .nav__hamburger {
+    display: none;
+  }
+}
+
 .header .nav__trigger {
   appearance: none;
   cursor: pointer;
@@ -529,22 +541,50 @@ body {
   translate: 0 -100%;
 }
 
+@media screen and (width >= 992px) {
+  .header .nav__links {
+    z-index: 1;
+    height: 100%;
+    flex-basis: 55%;
+    justify-content: space-between;
+    padding: 0;
+    display: flex;
+    position: static;
+    translate: 0;
+    box-shadow: none !important;
+  }
+}
+
 .header .nav__link {
   color: #a5a5a5;
   letter-spacing: .2rem;
   text-transform: uppercase;
+  border: #0000;
   align-items: center;
   font-family: Open Sans, sans-serif;
   font-size: .875rem;
   font-weight: bold;
   line-height: 50px;
   text-decoration: none;
-  transition: all .5s ease-in-out;
+  transition: color .5s ease-in-out, border-bottom-color .5s ease-in-out;
   display: flex;
+}
+
+@media screen and (width >= 992px) {
+  .header .nav__link {
+    font-size: .75rem;
+  }
 }
 
 .header .nav__link:hover {
   color: #000;
+}
+
+@media screen and (width >= 992px) {
+  .header .nav__link:hover {
+    border-top: 2px solid #0000;
+    border-bottom: 2px solid #08a6e4;
+  }
 }
 
 /*# sourceMappingURL=index.574c7455.css.map */
