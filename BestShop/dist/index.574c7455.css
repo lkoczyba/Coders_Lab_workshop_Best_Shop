@@ -444,6 +444,12 @@ body {
   top: 0;
 }
 
+@media screen and (width <= 576px) {
+  .header {
+    padding: 0;
+  }
+}
+
 .header .nav {
   height: 70px;
   background-color: #fff;
