@@ -1,0 +1,51 @@
+@use '../settings/mixins';
+@use '../settings/variables';
+@use '../settings/colors';
+@use 'sass:math';
+@use 'buttons';
+
+.opening{
+  @include mixins.breakpoint('max-width','sm'){
+    padding: 0;
+  }
+  &__wrapper{
+    background-color: colors.$color-neutral-lightest;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 35px;
+    background-image: url("../assets/Background.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto 40%;
+
+    @include mixins.breakpoint('min-width','lg'){
+      background-size: auto 60%;;
+    }
+  }
+  &__title{
+    font-size: variables.$fs-title-l;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 200px;
+    @include mixins.breakpoint('min-width','lg'){
+      margin-top: 170px;
+    }
+  }
+  &__subtitle{
+    font-family: variables.$ff-secondary;
+    text-align: center;
+    margin-bottom: 28px;
+    padding: 0 10px;
+  }
+  .btn{
+    width: 100%;
+
+    @include mixins.breakpoint('min-width','lg'){
+      width: 440px;
+    }
+  }
+
+}

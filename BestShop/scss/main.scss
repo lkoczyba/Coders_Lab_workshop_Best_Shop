@@ -3,9 +3,10 @@
 
 @use 'elements/base';
 @use 'elements/header';
-@use 'elements/opening-section';
-@use 'elements/statistics-section';
-@use 'elements/benefits-section';
-@use 'elements/pricing-section';
-@use 'elements/contact-section';
+@use 'elements/opening';
+@use 'elements/statistics';
+@use 'elements/benefits';
+@use 'elements/pricing';
+@use 'elements/contact';
 @use 'elements/footer';
+@use 'elements/buttons';

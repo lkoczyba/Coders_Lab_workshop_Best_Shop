@@ -440,8 +440,9 @@ body {
 
 .header {
   z-index: 10;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  left: 50%;
+  translate: -50%;
 }
 
 @media screen and (width <= 576px) {
@@ -570,7 +571,7 @@ body {
   font-family: Open Sans, sans-serif;
   font-size: .875rem;
   font-weight: bold;
-  line-height: 50px;
+  line-height: 40px;
   text-decoration: none;
   transition: color .5s ease-in-out, border-bottom-color .5s ease-in-out;
   display: flex;
@@ -590,6 +591,92 @@ body {
   .header .nav__link:hover {
     border-top: 2px solid #0000;
     border-bottom: 2px solid #08a6e4;
+  }
+}
+
+.btn {
+  color: #fff;
+  text-align: center;
+  background-color: #a5a5a5;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 20px;
+  font-family: Open Sans, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+}
+
+.btn:hover {
+  filter: brightness(120%);
+}
+
+.btn--primary {
+  background-color: #08a6e4;
+}
+
+.btn--secondary {
+  background-color: #fb3b64;
+}
+
+.btn--tertiary {
+  background-color: #55dfb4;
+}
+
+@media screen and (width <= 576px) {
+  .opening {
+    padding: 0;
+  }
+}
+
+.opening__wrapper {
+  height: 100vh;
+  background-color: #fff;
+  background-image: url("Background.96fc9b9b.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto 40%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 35px;
+  display: flex;
+}
+
+@media screen and (width >= 992px) {
+  .opening__wrapper {
+    background-size: auto 60%;
+  }
+}
+
+.opening__title {
+  text-transform: capitalize;
+  margin-top: 200px;
+  margin-bottom: 20px;
+  font-size: 2.1875rem;
+}
+
+@media screen and (width >= 992px) {
+  .opening__title {
+    margin-top: 170px;
+  }
+}
+
+.opening__subtitle {
+  text-align: center;
+  margin-bottom: 28px;
+  padding: 0 10px;
+  font-family: Open Sans, sans-serif;
+}
+
+.opening .btn {
+  width: 100%;
+}
+
+@media screen and (width >= 992px) {
+  .opening .btn {
+    width: 440px;
   }
 }
 

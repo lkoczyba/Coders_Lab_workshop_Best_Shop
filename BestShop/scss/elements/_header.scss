@@ -4,8 +4,9 @@
 @use 'sass:math';
 
 .header {
-  position: sticky;
-  top: 0;
+  position: fixed;
+  left: 50%;
+  translate: -50%;
   z-index: 10;
   @include mixins.breakpoint('max-width','sm'){
       padding: 0;
@@ -108,7 +109,7 @@
     &__link{
       display: flex;
       align-items: center;
-      line-height: 50px;
+      line-height: 40px;
       font-family: variables.$ff-secondary;
       font-size: variables.$fs-text-s;
       font-weight: bold;

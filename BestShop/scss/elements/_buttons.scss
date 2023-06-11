@@ -1,0 +1,31 @@
+@use '../settings/variables';
+@use '../settings/colors';
+
+.btn{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: colors.$color-neutral-lightest;
+  background-color: colors.$color-neutral;
+  border-radius: 40px;
+  font-family: variables.$ff-secondary;
+  font-weight: bold;
+  text-align: center;
+  padding: 22px 20px;
+  text-decoration: none;
+
+  &:hover{
+    filter: brightness(120%);
+  }
+
+  &--primary{
+    background-color: colors.$color-primary;
+  }
+  &--secondary{
+    background-color: colors.$color-secondary;
+  }
+  &--tertiary{
+    background-color: colors.$color-tertiary;
+  }
+
+}
