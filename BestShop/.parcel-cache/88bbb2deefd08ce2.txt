@@ -2,11 +2,11 @@
 113/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/dist/Person.e8721018.svg1686502833164491955 0
 118/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/dist/BestShop.3464ddca.js.map1686502833156491890 0
 114/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/dist/Macbook.a1f4b436.png1686502833152491856 0
-112/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/dist/index.574c7455.css1686503230087840130 0
+112/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/dist/index.574c7455.css1686506522068863521 0
 113/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/dist/iPhone.18df9ac3.png1686502833156491890 0
 104/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/dist/index.html1686502833152491856 0
 110/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/dist/Eye.e60e75e7.svg1686502833164491955 0
-116/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/dist/index.574c7455.css.map1686503230087840130 0
+116/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/dist/index.574c7455.css.map1686506522068863521 0
 120/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/domutils/readme.md1686429380156074818 0
 127/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/domutils/lib/stringify.js1686429380104074935 0
 128/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/domutils/lib/querying.d.ts1686429380184074756 0
@@ -2310,7 +2310,7 @@
 131/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/profiler/src/Trace.js1686429380084074980 0
 135/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/entities/lib/encode-trie.d.ts.map1686429380180074764 0
 127/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/posthtml-render/readme.md1686429380080074989 0
-93/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/dist1686503230091840164 1
+93/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/dist1686506522068863521 1
 146/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/caniuse-lite/data/features/pointer-events.js1686429380532073975 0
 153/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-select/node_modules/domutils/lib/index.d.ts.map1686429380212074692 0
 155/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/transformer-js/parcel-swc.linux-x64-musl.node1686429380676073652 0
@@ -2423,12 +2423,12 @@
 134/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/svgo/plugins/sortDefsChildren.js1686429380288074522 0
 107/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/.idea/BestShop.iml1686429286460267910 0
 110/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/argparse1686429380128074881 1
-108/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/.idea/workspace.xml1686503631263272307 0
+108/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/.idea/workspace.xml1686506980560227831 0
 133/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/caniuse-lite/data/regions/TH.js1686429380544073949 0
 156/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-select/node_modules/domutils/lib/esm/querying.d.ts1686429380272074558 0
 111/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/.bin/sass1686429380708073580 0
 144/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-select/node_modules/domutils/readme.md1686429380256074593 0
-116/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/scss/elements/_buttons.scss1686503631227271998 0
+116/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/scss/elements/_buttons.scss1686505499396671840 0
 157/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/parser1686429380400074270 1
 144/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-tree/lib/tokenizer/OffsetToLocation.js1686429380460074136 0
 121/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/regenerator-runtime1686429380052075051 1
@@ -2654,7 +2654,7 @@
 144/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/.bin/node-gyp-build-optional-packages-test1686429380708073580 0
 181/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/common/OffsetToLocation.js1686429380384074306 0
 146/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/runtime-js/src/helpers/bundle-url.js1686429380092074962 0
-94/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/.idea1686503631263272307 1
+94/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/.idea1686506980560227831 1
 106/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/assets/Person.svg1686429286516267805 0
 132/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/workers/src/backend.js1686429380048075060 0
 153/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/caniuse-lite/data/features/font-family-system-ui.js1686429380484074083 0
@@ -3465,7 +3465,7 @@
 122/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/posthtml-parser/dist1686429380108074926 1
 166/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-select/node_modules/entities/lib/esm/decode_codepoint.js.map1686429380224074666 0
 112/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/parcel/lib1686429380044075070 1
-102/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/scss/elements1686503631227271998 1
+102/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/scss/elements1686506521920864373 1
 149/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/caniuse-lite/data/features/fieldset-disabled.js1686429380480074092 0
 116/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/scss/elements/_pricing.scss1686429286516267805 0
 119/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/parcel/lib/cli.js1686429380064075025 0
@@ -4185,7 +4185,7 @@
 132/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/watcher/src/Watcher.hh1686429380220074675 0
 179/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/optimizer-svgo/node_modules/csso/lib/restructure/8-restructRuleset.js1686429380116074907 0
 138/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@swc/helpers/lib/_new_arrow_check.js1686429380412074244 0
-116/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/scss/elements/_opening.scss1686483612981198147 0
+116/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/scss/elements/_opening.scss1686506521916864396 0
 129/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/watcher/binding.gyp1686429380188074747 0
 126/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/@parcel/watcher/index.js1686429380228074656 0
 142/home/lukasz/Pulpit/Coders_Lab_workshop_Best_Shop/Coders_Lab_workshop_Best_Shop/BestShop/node_modules/css-select/node_modules/entities/LICENSE1686429380004075159 0
