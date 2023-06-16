@@ -762,14 +762,6 @@ body {
   line-height: 1.2em;
 }
 
-.benefits .benefits-box__image-wrapper--iPhone:before, .benefits .benefits-box__image-wrapper--macbook:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-
 .benefits__container {
   padding: 0 30px;
 }
@@ -862,6 +854,7 @@ body {
 
 @media screen and (width >= 992px) {
   .benefits .benefits-box__title {
+    width: 70%;
     margin: 70px 0 30px;
   }
 }
@@ -875,6 +868,14 @@ body {
   .benefits .benefits-box__image-wrapper {
     height: 100%;
   }
+}
+
+.benefits .benefits-box__image-wrapper:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .benefits .benefits-box__image-wrapper--macbook:before {
