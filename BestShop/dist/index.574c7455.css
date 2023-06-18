@@ -1119,4 +1119,127 @@ body {
   transform: translate(-50%, 50%);
 }
 
+@media screen and (width <= 576px) {
+  .contact {
+    padding: 0;
+  }
+}
+
+.contact__container {
+  background-color: #fff;
+  justify-content: center;
+  padding: 25px 15px;
+  display: flex;
+}
+
+.contact__title {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.5em;
+}
+
+@media screen and (width >= 992px) {
+  .contact__title {
+    text-align: left;
+  }
+}
+
+.contact__subtitle {
+  margin-bottom: 30px;
+  font-family: Open Sans, sans-serif;
+}
+
+.contact__info {
+  color: #a5a5a5;
+  align-items: center;
+  margin-top: 17px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  display: flex;
+}
+
+.contact__info--icon:before {
+  content: "";
+  width: 27px;
+  height: 27px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 10px;
+  display: inline-block;
+  transform: translate(0, 5%);
+}
+
+.contact__info--mail:before {
+  background-image: url("Mail Icon.b0bc1804.svg");
+}
+
+.contact__info--phone:before {
+  background-image: url("Phone Icon.b10af3a5.svg");
+}
+
+.contact__form {
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.contact__form-label {
+  letter-spacing: .3em;
+  color: #08a6e4;
+  text-transform: uppercase;
+  font-size: .75rem;
+  font-weight: bold;
+}
+
+.contact__form-input {
+  border: none;
+  border-bottom: 1px solid #a5a5a5;
+  outline: none;
+  margin: 2px 0;
+}
+
+.contact__form-checkbox-label {
+  color: #a5a5a5;
+  gap: 10px;
+  font-family: Open Sans, sans-serif;
+  font-size: .75rem;
+  line-height: 17px;
+  display: flex;
+}
+
+.contact__form-checkbox-label:hover {
+  cursor: pointer;
+}
+
+.contact__form-checkbox {
+  appearance: none;
+  height: 24px;
+  width: 24px;
+  border: 1px solid #95989a;
+  border-radius: 4px;
+  flex-shrink: 0;
+  order: -1;
+  align-self: flex-start;
+}
+
+.contact__form-checkbox:checked {
+  background-image: url("Checkmark.c57fbd17.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 12px;
+}
+
+.contact__form-checkbox:hover {
+  cursor: pointer;
+}
+
+.contact .btn {
+  width: 225px;
+  border: none;
+  outline: none;
+  align-self: flex-end;
+}
+
 /*# sourceMappingURL=index.574c7455.css.map */
