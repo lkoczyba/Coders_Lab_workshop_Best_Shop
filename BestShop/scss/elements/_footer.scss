@@ -1,0 +1,101 @@
+@use '../settings/mixins';
+@use '../settings/variables';
+@use '../settings/colors';
+
+.footer{
+  @include mixins.breakpoint('max-width', 'sm') {
+    padding: 0;
+  }
+  &__container{
+    @include mixins.breakpoint('min-width', 'lg') {
+      padding: 20px 135px;
+    }
+    background-color: colors.$color-neutral-light;
+    padding: 20px;
+    box-shadow: 0 -5px 40px #00000029;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo-wrapper{
+
+  }
+  &__logo{
+    font-size: variables.$fs-title-s;
+    font-weight: 300;
+    color: colors.$color-primary;
+    text-decoration: none;
+    letter-spacing: 0;
+  }
+  &__copyright{
+    font-family: variables.$ff-secondary;
+    font-size: variables.$fs-text-xs;
+    color: colors.$color-neutral;
+    margin-top: 7px;
+  }
+  &__social-wrapper{
+
+  }
+  .social-icon{
+    &:not(:last-child){
+      margin-right: 20px;
+    }
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &--facebook{
+      background-image: url("../assets/Facebook.svg");
+    }
+    &--twitter{
+      background-image: url("../assets/Twitter.svg");
+    }
+  }
+}
+
+
+//.footer{
+//
+//}
+//.container--footer{
+//  padding: 20px 130px;
+//  box-shadow: 0 -5px 40px #00000029;
+//  display: flex;
+//  justify-content: space-between;
+//  align-items: center;
+//
+//}
+//.footer__logo{
+//  font-family: var(--font-primary);
+//  font-size: 30px;
+//  font-weight: 300;
+//  color: var(--color-primary);
+//  text-decoration: none;
+//  letter-spacing: 0;
+//}
+//.footer__copyright{
+//  font-family: var(--font-secondary);
+//  font-size: 11px;
+//  color: var(--color-grey);
+//  margin-top: 7px;
+//}
+//
+//.social-icon{
+//  width: 24px;
+//  height: 24px;
+//  display: inline-block;
+//  border-radius: 50%;
+//  margin: 10px;
+//  background-position: center;
+//  background-size: cover;
+//  background-repeat: no-repeat;
+//}
+//.social-icon--twitter{
+//  background-image: url("../assets/Twitter.svg");
+//}
+//.social-icon--facebook{
+//  background-image: url("../assets/Facebook.svg");
+//}

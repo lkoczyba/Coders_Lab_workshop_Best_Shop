@@ -1242,4 +1242,62 @@ body {
   align-self: flex-end;
 }
 
+@media screen and (width <= 576px) {
+  .footer {
+    padding: 0;
+  }
+}
+
+.footer__container {
+  background-color: #f7f7f7;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 -5px 40px #00000029;
+}
+
+@media screen and (width >= 992px) {
+  .footer__container {
+    padding: 20px 135px;
+  }
+}
+
+.footer__logo {
+  color: #08a6e4;
+  letter-spacing: 0;
+  font-size: 1.875rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.footer__copyright {
+  color: #a5a5a5;
+  margin-top: 7px;
+  font-family: Open Sans, sans-serif;
+  font-size: .75rem;
+}
+
+.footer .social-icon {
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.footer .social-icon:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer .social-icon--facebook {
+  background-image: url("Facebook.389b15e8.svg");
+}
+
+.footer .social-icon--twitter {
+  background-image: url("Twitter.41e2b00a.svg");
+}
+
 /*# sourceMappingURL=index.574c7455.css.map */
