@@ -1,0 +1,205 @@
+@use '../settings/mixins';
+@use '../settings/variables';
+@use '../settings/colors';
+
+.calc {
+  padding: 80px 0;
+  background-color: colors.$color-neutral-light;
+
+  @include mixins.breakpoint('max-width', 'lg') {
+    padding: 30px 15px;
+  }
+
+
+  h2 {
+    text-align: center;
+  }
+
+  &__columns {
+    max-width: 865px;
+    margin: 50px auto 0;
+    display: flex;
+
+    @include mixins.breakpoint('max-width', 'lg') {
+      display: block;
+    }
+  }
+
+  &__form {
+    width: 50%;
+    margin-right: 20px;
+
+    @include mixins.breakpoint('max-width', 'lg') {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+
+
+  &__input input,
+  &__select .select__input {
+    color: colors.$color-neutral;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid colors.$color-primary;
+    padding: 11px 20px;
+    line-height: 1em;
+    font-size: 0.8125rem;
+    box-shadow: 0px 3px 6px colors.$color-neutral;
+    margin-bottom: 20px;
+    background-color: colors.$color-neutral-lightest;
+  }
+
+  &__input {
+    input {
+      &::placeholder {
+        color: colors.$color-neutral;
+      }
+    }
+  }
+
+  &__select {
+    position: relative;
+
+    .select__input {
+      position: relative;
+      height: 40px;
+      vertical-align: middle;
+      padding: 13px 20px;
+      cursor: pointer;
+
+      &::after {
+        content: "";
+        background-image: url("../assets/Arrow.svg");
+        width: 22px;
+        height: 22px;
+        display: block;
+        position: absolute;
+        right: 14px;
+        top: 9px;
+      }
+    }
+
+    .select__dropdown {
+      display: none;
+      position: absolute;
+      z-index: 1;
+      background-color: white;
+      width: 100%;
+      border-radius: 6px;
+      border: 1px solid colors.$color-secondary;
+      overflow: hidden;
+      list-style: none;
+
+      li {
+        font-size: 13px;
+        padding: 10px 20px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: colors.$color-neutral-light;
+        }
+      }
+    }
+
+
+    &.open {
+      .select__input::after {
+        transform: rotate(180deg);
+      }
+
+      .select__dropdown {
+        display: block;
+      }
+    }
+  }
+
+  .checkbox{
+    display: flex;
+    padding: 12px 0;
+    gap: 16px;
+    align-items: center;
+    &__label{
+      font-size: 12px;
+      line-height: 17px;
+      color: colors.$color-neutral;
+      display: flex;
+      gap: 10px;
+      cursor: pointer;
+    }
+    &__input{
+      align-self: flex-start;
+      flex-shrink: 0;
+      appearance: none;
+      height: 24px;
+      width: 24px;
+      border: 1px solid #95989A;
+      border-radius: 4px;
+      background-color: colors.$color-neutral-lightest ;
+
+      &:checked{
+        background-image: url("../assets/Checkmark.svg");
+        background-position: center;
+        background-size: 12px;
+        background-repeat: no-repeat;
+      }
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__summary {
+    width: 50%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+    @include mixins.breakpoint('max-width', 'lg') {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 30px;
+    }
+
+    .summary__total,
+    .list__item {
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+      border-radius: 6px;
+      justify-content: space-between;
+      align-items: center;
+      color: colors.$color-neutral-lightest;
+      font-size: 0.875rem;
+      display: none;
+
+      &.open {
+        display: flex;
+      }
+    }
+
+    .summary__total {
+      width: 50%;
+      align-self: flex-end;
+      margin-top: auto;
+      padding: 8px 20px;
+      background-color: colors.$color-primary;
+
+      .total__price {
+        font-size: 1.25rem;
+        font-weight: 700;
+      }
+    }
+
+    .list__item {
+      padding: 6px 20px;
+      background-color: colors.$color-tertiary;
+      margin-bottom: 8px;
+
+      .item {
+        &__price {
+          font-weight: 700;
+          font-size: 1.125rem;
+        }
+      }
+    }
+  }
+}
