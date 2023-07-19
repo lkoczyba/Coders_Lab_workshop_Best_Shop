@@ -155,7 +155,7 @@
 </section>
 
 <section class="calc">
-    <h2>Calculate how much you’ll pay</h2>
+    <h2 class="calc__title">Calculate how much you’ll pay</h2>
 
     <div class="calc__columns">
         <form class="calc__form">
@@ -238,13 +238,18 @@
             <label class="contact__form-label" for="email"> email</label>
             <input class="contact__form-input" type="email" id="email">
 
-            <label class="contact__form-checkbox-label">
-                I hereby give consent for my personal data included in my application to be processed for the purposes
-                of the recruitment process under the European Parliament’s and Council of the European Union Regulation
-                on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data
-                and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
-                <input class="contact__form-checkbox" type="checkbox">
-            </label>
+            <div class="checkbox">
+                <input class="checkbox__input" type="checkbox" id="agreement">
+                <label for="agreement" class="checkbox__label">
+                    I hereby give consent for my personal data included in my application to be processed for the
+                    purposes
+                    of the recruitment process under the European Parliament’s and Council of the European Union
+                    Regulation
+                    on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal
+                    data
+                    and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+                </label>
+            </div>
             <button class="btn btn--primary" type="submit">Send</button>
         </form>
     </div>

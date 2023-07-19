@@ -1200,41 +1200,6 @@ body {
   margin: 2px 0;
 }
 
-.contact__form-checkbox-label {
-  color: #a5a5a5;
-  gap: 10px;
-  font-family: Open Sans, sans-serif;
-  font-size: .75rem;
-  line-height: 17px;
-  display: flex;
-}
-
-.contact__form-checkbox-label:hover {
-  cursor: pointer;
-}
-
-.contact__form-checkbox {
-  appearance: none;
-  height: 24px;
-  width: 24px;
-  border: 1px solid #95989a;
-  border-radius: 4px;
-  flex-shrink: 0;
-  order: -1;
-  align-self: flex-start;
-}
-
-.contact__form-checkbox:checked {
-  background-image: url("Checkmark.c57fbd17.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 12px;
-}
-
-.contact__form-checkbox:hover {
-  cursor: pointer;
-}
-
 .contact .btn {
   width: 225px;
   border: none;
@@ -1311,8 +1276,10 @@ body {
   }
 }
 
-.calc h2 {
+.calc__title {
   text-align: center;
+  font-size: 2.1875rem;
+  font-weight: normal;
 }
 
 .calc__columns {
@@ -1409,44 +1376,6 @@ body {
   display: block;
 }
 
-.calc .checkbox {
-  align-items: center;
-  gap: 16px;
-  padding: 12px 0;
-  display: flex;
-}
-
-.calc .checkbox__label {
-  color: #a5a5a5;
-  cursor: pointer;
-  gap: 10px;
-  font-size: 12px;
-  line-height: 17px;
-  display: flex;
-}
-
-.calc .checkbox__input {
-  appearance: none;
-  height: 24px;
-  width: 24px;
-  background-color: #fff;
-  border: 1px solid #95989a;
-  border-radius: 4px;
-  flex-shrink: 0;
-  align-self: flex-start;
-}
-
-.calc .checkbox__input:checked {
-  background-image: url("Checkmark.c57fbd17.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 12px;
-}
-
-.calc .checkbox__input:hover {
-  cursor: pointer;
-}
-
 .calc__summary {
   width: 50%;
   flex-direction: column;
@@ -1498,6 +1427,44 @@ body {
 .calc__summary .list__item .item__price {
   font-size: 1.125rem;
   font-weight: 700;
+}
+
+.checkbox {
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0;
+  display: flex;
+}
+
+.checkbox__label {
+  color: #a5a5a5;
+  cursor: pointer;
+  gap: 10px;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+}
+
+.checkbox__input {
+  appearance: none;
+  height: 24px;
+  width: 24px;
+  background-color: #fff;
+  border: 1px solid #95989a;
+  border-radius: 4px;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+.checkbox__input:checked {
+  background-image: url("Checkmark.c57fbd17.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 12px;
+}
+
+.checkbox__input:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=index.574c7455.css.map */
